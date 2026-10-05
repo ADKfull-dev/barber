@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barber — salon de coiffure homme premium. Coupes modernes, barbe et soins avec une expérience élégante.">
+  <title>BARBER — Coiffure Homme Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <a class="logo" href="#top">BARBER<span>.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#contact">Prendre rendez-vous</a>
+    <button class="menu" id="menu" aria-label="Ouvrir le menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-copy">
+        <p class="eyebrow">COIFFURE HOMME • STYLE • PRÉCISION</p>
+        <h1>Votre style.<br><em>Notre signature.</em></h1>
+        <p class="hero-text">Une expérience barber premium pensée pour les hommes qui recherchent une coupe impeccable, une barbe maîtrisée et un service soigné.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Réserver maintenant <span>↗</span></a>
+          <a class="btn btn-light" href="#services">Découvrir nos services</a>
+        </div>
+        <div class="trust">
+          <div><strong>4.9/5</strong><span>Avis clients</span></div>
+          <div><strong>+500</strong><span>Clients satisfaits</span></div>
+          <div><strong>Pro</strong><span>Barbiers experts</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-frame">
+          <img id="heroImage" alt="Barbier et coiffure homme">
+          <div class="hero-label"><span>01</span><b>EXCELLENCE<br>AU QUOTIDIEN</b></div>
+        </div>
+        <div class="circle-text">EST. • BARBER • STYLE • 2026 •</div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-head">
+        <div><p class="eyebrow">NOS SERVICES</p><h2>Le détail fait<br><em>la différence.</em></h2></div>
+        <p>Des prestations conçues pour vous offrir une apparence nette, moderne et parfaitement adaptée à votre style.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><span class="number">01</span><div class="icon">✂</div><h3>Coupe Homme</h3><p>Dégradé, classique, moderne ou personnalisé selon votre visage et votre style.</p><strong>À partir de 2 000 FCFA</strong></article>
+        <article class="service-card"><span class="number">02</span><div class="icon">⌁</div><h3>Taille de barbe</h3><p>Contours précis, finition propre et entretien adapté à votre barbe.</p><strong>À partir de 1 500 FCFA</strong></article>
+        <article class="service-card"><span class="number">03</span><div class="icon">◌</div><h3>Coupe + Barbe</h3><p>Le combo complet pour une finition harmonieuse de la tête au visage.</p><strong>À partir de 3 000 FCFA</strong></article>
+        <article class="service-card"><span class="number">04</span><div class="icon">✦</div><h3>Premium Care</h3><p>Soin, finition et conseils personnalisés pour conserver votre style.</p><strong>Sur réservation</strong></article>
+      </div>
+    </section>
+
+    <section class="section gallery" id="galerie">
+      <div class="section-head compact">
+        <div><p class="eyebrow">NOTRE GALERIE</p><h2>Quelques réalisations.</h2></div>
+        <p>Les photos présentes dans le dossier <b>images/</b> de votre dépôt GitHub sont chargées automatiquement.</p>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="loading">Chargement des réalisations…</div>
+      </div>
+    </section>
+
+    <section class="about" id="apropos">
+      <div class="about-image"><img id="aboutImage" alt="Espace barber"></div>
+      <div class="about-copy">
+        <p class="eyebrow">L'EXPÉRIENCE BARBER</p>
+        <h2>Plus qu'une coupe.<br><em>Une vraie expérience.</em></h2>
+        <p>Nous croyons qu'un bon passage chez le barber doit être un moment de confiance, de précision et de détente. Chaque prestation est réalisée avec attention pour obtenir une finition propre et durable.</p>
+        <div class="about-points"><span>✓ Équipe professionnelle</span><span>✓ Produits soigneusement sélectionnés</span><span>✓ Conseils adaptés à votre style</span><span>✓ Hygiène et précision</span></div>
+      </div>
+    </section>
+
+    <section class="booking" id="contact">
+      <div><p class="eyebrow">PRENDRE RENDEZ-VOUS</p><h2>Prêt pour votre<br><em>prochain look ?</em></h2></div>
+      <div class="booking-card">
+        <p>Contactez-nous pour choisir votre créneau et votre prestation.</p>
+        <a class="btn btn-primary full" href="https://wa.me/22900000000?text=Bonjour%2C%20je%20souhaite%20prendre%20rendez-vous%20au%20barber." target="_blank" rel="noopener">Réserver sur WhatsApp ↗</a>
+        <small>Remplacez <b>22900000000</b> dans index.html par le vrai numéro WhatsApp du salon.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><a class="logo" href="#top">BARBER<span>.</span></a><p>Style précis. Service premium.</p></div>
+    <div class="footer-links"><a href="#services">Services</a><a href="#galerie">Galerie</a><a href="#contact">Contact</a></div>
+    <p>© 2026 BARBER. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
